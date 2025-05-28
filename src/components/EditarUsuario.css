@@ -1,0 +1,21 @@
+.modal-overlay {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 10rem;
+}
+
+.modal-content {
+    background-color: azure;
+    border-radius: 8px;
+    padding: 30px 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
